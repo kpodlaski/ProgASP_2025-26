@@ -7,21 +7,20 @@ target/
 !**/src/test/**/target/
 
 ### IntelliJ IDEA ###
-*.idea/
-*.iws
-*.iml
-*.ipr
-*.mvn
-*.idea*
+**.idea/
+**.iws
+**.iml
+**.ipr
+**.mvn
+
 
 ### VS Code ###
-*.vscode/
-*.sln
-obj/
-bin/
-*lib/
-*lib/*
-*.csproj
-
+**.vscode/
+**.vs
+**.sln
+**/obj/
+**/bin/
+**/lib/
+**.csproj
 
 
