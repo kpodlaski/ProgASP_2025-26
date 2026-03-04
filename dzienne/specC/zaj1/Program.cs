@@ -1,4 +1,5 @@
 ﻿using System.Runtime.InteropServices;
+using Zaj1.postoffice;
 
 namespace Zaj1;
 
@@ -16,11 +17,17 @@ class Program
         Console.WriteLine(c.Value);
     }
 
-    static void Main(string[] args)
+    static void Main3(string[] args)
     {
         EvenCounter c = new EvenCounter();
         c.StartCounter();
         ParityCheck ch = new ParityCheck(c);
         ch.StartChecking();
+    }
+
+    static void Main(string[] args)
+    {
+        //Simple Post Office
+        SimplestPostOffice.Program();
     }
 }
