@@ -1,0 +1,10 @@
+@startuml
+IClient -> IPostOffice ++ #005500 : AddNewClient(this)
+    IPostOffice -> IPostOffice ++ #005555: ServeClient(c)
+        IPostOffice -> IPostOfficer ++ #000055: ServeClient(c)
+            IPostOfficer -> IClient++ #000088: Task(this)
+            return 
+        return 
+    return 
+return
+@enduml
