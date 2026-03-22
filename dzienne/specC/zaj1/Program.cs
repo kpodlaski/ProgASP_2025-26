@@ -28,6 +28,8 @@ class Program
     static void Main(string[] args)
     {
         //Simple Post Office
-        SimplestPostOffice.Program();
+        //SimplestPostOffice.Program();
+        //Multi officers Post Office
+        PostOffice.Program();
     }
 }
